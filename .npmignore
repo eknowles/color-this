@@ -1,2 +1,10 @@
-___tests___/
+# tests
+__tests__
 jest.config.js
+
+# ide
+.idea
+
+# configs
+tsconfig.json
+.travis.yml
