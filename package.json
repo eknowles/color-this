@@ -1,0 +1,25 @@
+{
+  "name": "color-this",
+  "version": "1.0.0",
+  "description": "Generate a random color from a given string",
+  "keywords": ["color"],
+  "bugs": {
+    "url": "https://github.com/eknowles/color-this/issues"
+  },
+  "homepage": "https://github.com/eknowles/color-this#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/eknowles/color-this",
+  "author": "Edward Knowles <mail@eknowles.com> (http://efk.me)",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.0.0",
+    "jest": "^23.1.0",
+    "ts-jest": "^22.4.6",
+    "typescript": "^2.9.1"
+  }
+}
