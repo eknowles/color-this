@@ -1,8 +1,10 @@
 {
-  "name": "color-this",
+  "name": "@eknowles/color-this",
   "version": "1.0.0",
   "description": "Generate a random color from a given string",
-  "keywords": ["color"],
+  "keywords": [
+    "color"
+  ],
   "bugs": {
     "url": "https://github.com/eknowles/color-this/issues"
   },
@@ -18,6 +20,7 @@
   },
   "devDependencies": {
     "@types/jest": "^23.0.0",
+    "coveralls": "^3.0.1",
     "jest": "^23.1.0",
     "ts-jest": "^22.4.6",
     "typescript": "^2.9.1"
