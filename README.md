@@ -12,7 +12,7 @@ Add color to graph series names, months of the year, days of the week, super use
 
 ### Demos
 
-- Basic React Demo https://color-this-demo.stackblitz.io
+- [Basic React Demo](https://stackblitz.com/edit/color-this-demo?embed=1&file=index.js&hideExplorer=1&hideNavigation=1)
 
 ## Getting Started
 
