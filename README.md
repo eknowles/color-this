@@ -10,6 +10,10 @@
 
 Add color to graph series names, months of the year, days of the week, super useful to add a unique subtle differentiator.
 
+### Demos
+
+- Basic React Demo https://color-this-demo.stackblitz.io
+
 ## Getting Started
 
 Load from npm
