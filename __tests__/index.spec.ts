@@ -3,8 +3,14 @@ import ct, { rgbToCSS, convert, toVal, IConvert } from '../index';
 describe('color-this', () => {
 
   it('should export the ct function by default', () => {
-
     expect(ct).toBeDefined();
+  });
+
+  it('should return a different string when salted', () => {
+    const text = 'test';
+    const foo = ct(text, 1);
+    const bar = ct(text, 2);
+    expect(foo).not.toEqual(bar);
   });
 
   it('should return any 3 three strings as a number less than 256', () => {

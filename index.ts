@@ -6,11 +6,12 @@ export interface IConvert {
 
 /**
  * Convert a string to an RGB CSS value
- * @param {string} str - Given string to be converted
+ * @param {String} str - Given string to be converted
+ * @param {Number} salt - A number that affects the range of colors output
  * @return {string} rgb string css e.g. `rgb(255, 100, 50)`
  */
-export default function(str: string): string {
-  const rgb = convert(str);
+export default function main(str: string, salt?: number): string {
+  const rgb = convert(str, salt);
   return rgbToCSS(rgb.red, rgb.green, rgb.blue);
 }
 
