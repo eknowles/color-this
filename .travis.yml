@@ -6,19 +6,14 @@ node_js:
     - node
 install:
   - yarn install --ignore-engines
-jobs:
-  include:
-    - stage: Compile TypeScript for Distribution
-      node_js: node
-      script: yarn build
-    - stage: Produce Coverage
-      node_js: node
-      script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
+scripts:
+  - yarn build
+  - jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
 deploy:
   provider: script
   skip_cleanup: true
   script:
     - npx travis-deploy-once "npx semantic-release"
 branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+  only:
+    - master

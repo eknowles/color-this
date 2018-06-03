@@ -31,9 +31,8 @@
         "path": "@semantic-release/github",
         "assets": [
           {
-            "path": "dist/**/*",
-            "name": "dist",
-            "label": "Compiled JavaScript and Type Definitions"
+            "path": "dist/index.js",
+            "label": "JS Distribution"
           }
         ]
       }
