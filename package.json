@@ -43,8 +43,8 @@
     "coveralls": "^3.0.1",
     "jest": "^23.1.0",
     "semantic-release": "^15.5.0",
+    "travis-deploy-once": "^5.0.0",
     "ts-jest": "^22.4.6",
-    "typescript": "^2.9.1",
-    "travis-deploy-once": "^5.0.0"
+    "typescript": "^2.9.1"
   }
 }
