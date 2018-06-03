@@ -4,6 +4,8 @@ notifications:
   email: false
 node_js:
     - node
+install:
+  - yarn install --ignore-engines
 jobs:
   include:
     - stage: Compile TypeScript for Distribution

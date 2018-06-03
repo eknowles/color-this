@@ -21,7 +21,23 @@
     "build": "tsc",
     "test": "jest",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepublish": "npm run build"
+  },
+  "release": {
+    "publish": [
+      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/github",
+        "assets": [
+          {
+            "path": "dist/**/*",
+            "name": "dist",
+            "label": "Compiled JavaScript and Type Definitions"
+          }
+        ]
+      }
+    ]
   },
   "devDependencies": {
     "@types/jest": "^23.0.0",
