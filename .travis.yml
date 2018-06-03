@@ -3,7 +3,6 @@ cache: yarn
 notifications:
   email: false
 node_js:
-    - 8
     - node
 jobs:
   include:
@@ -11,7 +10,8 @@ jobs:
       node_js: node
       script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
 after_success:
-  - yarn run travis-deploy-once "yarn run semantic-release"
+  - npm install -g travis-deploy-once
+  - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/

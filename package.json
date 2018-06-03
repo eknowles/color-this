@@ -20,6 +20,10 @@
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
+  "release": {
+    "verifyConditions": ["@semantic-release/changelog", "@semantic-release/npm", "@semantic-release/git"],
+    "prepare": ["@semantic-release/changelog", "@semantic-release/npm", "@semantic-release/git"]
+  },
   "devDependencies": {
     "@types/jest": "^23.0.0",
     "coveralls": "^3.0.1",
