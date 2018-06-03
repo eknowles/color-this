@@ -11,7 +11,10 @@
   "homepage": "https://github.com/eknowles/color-this#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/eknowles/color-this",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eknowles/color-this.git"
+  },
   "author": "Edward Knowles <mail@eknowles.com> (http://efk.me)",
   "license": "MIT",
   "scripts": {
