@@ -1,10 +1,11 @@
 # color-this
 
-[![npm](https://img.shields.io/npm/v/@eknowles/color-this.svg?style=for-the-badge)](https://github.com/eknowles/color-this/releases)
-[![Travis branch](https://img.shields.io/travis/eknowles/color-this/master.svg?style=for-the-badge)](https://travis-ci.org/eknowles/color-this)
-[![Coveralls github branch](https://img.shields.io/coveralls/github/eknowles/color-this/master.svg?style=for-the-badge)](https://coveralls.io/github/eknowles/color-this)
-[![GitHub stars](https://img.shields.io/github/stars/eknowles/color-this.svg?style=for-the-badge)](https://github.com/eknowles/color-this/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/eknowles/color-this.svg?style=for-the-badge)](https://github.com/eknowles/color-this/issues)
+[![npm](https://img.shields.io/npm/v/@eknowles/color-this.svg)](https://github.com/eknowles/color-this/releases)
+[![Travis branch](https://img.shields.io/travis/eknowles/color-this/master.svg)](https://travis-ci.org/eknowles/color-this)
+[![Coveralls github branch](https://img.shields.io/coveralls/github/eknowles/color-this/master.svg)](https://coveralls.io/github/eknowles/color-this)
+[![GitHub stars](https://img.shields.io/github/stars/eknowles/color-this.svg)](https://github.com/eknowles/color-this/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/eknowles/color-this.svg)](https://github.com/eknowles/color-this/issues)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 > Generate a random color from a given string
 
@@ -12,7 +13,8 @@ Add color to graph series names, months of the year, days of the week, super use
 
 ### Demos
 
-- [Basic React Demo](https://stackblitz.com/edit/color-this-demo?embed=1&file=index.js&hideExplorer=1&hideNavigation=1)
+- [Homepage](https://color-this-playground.stackblitz.io)
+- [Playground](https://stackblitz.com/edit/color-this-playground?file=components%2Flabel.js)
 
 ## Getting Started
 

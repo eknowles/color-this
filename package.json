@@ -1,6 +1,6 @@
 {
   "name": "@eknowles/color-this",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Generate a random color from a given string",
   "keywords": [
     "color"
@@ -16,13 +16,17 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@types/jest": "^23.0.0",
     "coveralls": "^3.0.1",
     "jest": "^23.1.0",
+    "semantic-release": "^15.5.0",
     "ts-jest": "^22.4.6",
-    "typescript": "^2.9.1"
+    "typescript": "^2.9.1",
+    "travis-deploy-once": "^5.0.0"
   }
 }
